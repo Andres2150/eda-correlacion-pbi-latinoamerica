@@ -2,230 +2,166 @@
 
 <div align="center">
 
-## Exploratory Data Analysis (EDA) | Estadística | Visualización | Economía | Ciencia de Datos
-
----
+### Exploratory Data Analysis (EDA) • Data Analytics • Economía • Machine Learning
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange?style=for-the-badge&logo=pandas)
 ![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-blue?style=for-the-badge&logo=numpy)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-green?style=for-the-badge)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange?style=for-the-badge&logo=scikit-learn)
-![Status](https://img.shields.io/badge/Project-Completed-success?style=for-the-badge)
 
 </div>
 
 ---
 
-# 📖 Descripción del proyecto
+# 🌎 Descripción del proyecto
 
 Este proyecto desarrolla un **Análisis Exploratorio de Datos (EDA)** sobre la evolución del **Producto Bruto Interno (PBI) nominal** de **17 países de América Latina** durante el período **2000–2024**.
 
-El estudio tiene como propósito identificar patrones de crecimiento, ciclos económicos, niveles de volatilidad y similitudes estructurales entre las economías latinoamericanas utilizando herramientas estadísticas y técnicas de análisis multivariado.
+El objetivo principal consiste en comprender cómo han evolucionado las economías latinoamericanas en los últimos veinticinco años mediante técnicas de estadística descriptiva, visualización de datos y análisis multivariado.
 
-Más allá de describir el comportamiento histórico del PBI, el proyecto busca responder una pregunta de gran relevancia económica:
-
-> **¿Las economías latinoamericanas crecen de manera independiente o siguen un mismo ciclo económico?**
-
-Para responder esta interrogante se emplean diferentes técnicas de Ciencia de Datos que permiten transformar datos económicos en información útil para comprender la dinámica regional.
+Además del estudio descriptivo, el proyecto busca identificar relaciones estructurales entre los países y sentar las bases para aplicar técnicas de **Machine Learning** como **PCA (Principal Component Analysis)** y **Clustering**.
 
 ---
 
-# 🎯 Objetivos
+# 🎯 Objetivo
 
-## Objetivo general
-
-Analizar la evolución del Producto Bruto Interno (PBI) de América Latina entre los años 2000 y 2024 mediante técnicas de análisis exploratorio de datos (EDA), estadística descriptiva, correlación, reducción de dimensionalidad y aprendizaje no supervisado.
-
----
-
-## Objetivos específicos
-
-- Explorar la evolución temporal del PBI de cada país.
-
-- Identificar tendencias de crecimiento económico regional.
-
-- Detectar diferencias estructurales entre economías grandes, medianas y pequeñas.
-
-- Analizar la volatilidad económica de cada país.
-
-- Evaluar el grado de sincronización entre las economías latinoamericanas.
-
-- Determinar si existen grupos de países con trayectorias económicas similares.
-
-- Validar el uso de técnicas como PCA y Clustering para reducir la complejidad del conjunto de datos.
+Analizar la evolución del Producto Bruto Interno (PBI) de América Latina entre los años **2000 y 2024**, identificando patrones de crecimiento, diferencias estructurales, niveles de volatilidad y relaciones entre economías mediante técnicas de Ciencia de Datos.
 
 ---
 
 # ❓ Preguntas de investigación
 
-Este proyecto intenta responder las siguientes preguntas:
+Este proyecto busca responder las siguientes preguntas:
 
 - ¿Cómo ha evolucionado el PBI latinoamericano durante los últimos 25 años?
+- ¿Qué países lideran el crecimiento económico regional?
+- ¿Existen economías con comportamientos similares?
+- ¿Cómo reaccionó América Latina frente a las principales crisis internacionales?
+- ¿Es posible identificar bloques económicos mediante técnicas estadísticas?
+- ¿Qué tan sincronizados se encuentran los ciclos económicos de la región?
 
-- ¿Existen economías que lideran el crecimiento regional?
+---
 
-- ¿Qué países presentan mayor estabilidad económica?
+# 📌 Principales hallazgos
 
-- ¿Las economías latinoamericanas reaccionan de manera similar frente a las crisis internacionales?
+Antes de profundizar en el análisis, estos son algunos de los resultados más relevantes obtenidos:
 
-- ¿Es posible identificar bloques económicos mediante técnicas de Ciencia de Datos?
+| Hallazgo | Resultado |
+|----------|-----------|
+| 🌎 Cobertura | 17 países latinoamericanos |
+| 📅 Periodo analizado | 2000–2024 |
+| 📈 Tendencia regional | Crecimiento sostenido con desaceleraciones temporales |
+| 📉 Mayor volatilidad | Argentina |
+| 🚀 Mayor crecimiento relativo | Perú y Panamá |
+| 🔗 Correlación | Alta sincronización entre la mayoría de economías |
+| 🧠 Machine Learning | La alta correlación justifica el uso de PCA y Clustering |
 
-- ¿Qué tan correlacionados están los ciclos económicos de la región?
+---
+
+# 🗂️ Contenido del proyecto
+
+- Introducción
+- Dataset
+- Tecnologías utilizadas
+- Metodología
+- Análisis Exploratorio de Datos (EDA)
+- Estadística descriptiva
+- Evolución temporal del PBI
+- Análisis de volatilidad
+- Crecimiento acumulado
+- Matriz de correlación
+- Interpretación económica
+- Implicancias para PCA
+- Implicancias para Clustering
+- Conclusiones
 
 ---
 
 # 🌎 Cobertura del estudio
 
-| Variable | Descripción |
-|-----------|-------------|
+| Característica | Descripción |
+|----------------|-------------|
 | Región | América Latina |
-| Número de países | 17 |
-| Cobertura temporal | 2000 – 2024 |
+| Países | 17 |
+| Cobertura temporal | 2000–2024 |
 | Frecuencia | Anual |
-| Variable principal | Producto Bruto Interno Nominal |
-| Unidad | Miles de millones de dólares estadounidenses (USD) |
+| Variable analizada | Producto Bruto Interno Nominal |
+| Unidad | Miles de millones de USD |
 
 ---
 
-# 📂 Países analizados
+# 🌎 Países incluidos
 
-- Argentina
-- Bolivia
-- Brasil
-- Chile
-- Colombia
-- Costa Rica
-- Ecuador
-- El Salvador
-- Guatemala
-- Honduras
-- México
-- Nicaragua
-- Panamá
-- Paraguay
-- Perú
-- República Dominicana
-- Uruguay
+| Sudamérica | Centroamérica |
+|-------------|---------------|
+| Argentina | Costa Rica |
+| Bolivia | El Salvador |
+| Brasil | Guatemala |
+| Chile | Honduras |
+| Colombia | Nicaragua |
+| Ecuador | Panamá |
+| Paraguay | República Dominicana |
+| Perú | |
+| Uruguay | |
+| México* | |
+
+> **Nota:** Aunque geográficamente México pertenece a Norteamérica, se incluye debido a su relevancia económica y su frecuente análisis conjunto con América Latina.
 
 ---
 
-# 📚 Tecnologías utilizadas
+# 🛠️ Tecnologías utilizadas
 
-El proyecto fue desarrollado completamente en Python utilizando herramientas ampliamente empleadas en Ciencia de Datos.
-
-| Herramienta | Uso |
-|------------|------|
-| Python | Lenguaje principal |
-| Pandas | Manipulación de datos |
-| NumPy | Operaciones matemáticas |
+| Herramienta | Propósito |
+|--------------|-----------|
+| Python | Desarrollo del proyecto |
+| Pandas | Manipulación y limpieza de datos |
+| NumPy | Cálculo numérico |
 | Matplotlib | Visualización |
-| Seaborn | Gráficos estadísticos |
+| Seaborn | Estadística gráfica |
 | Scikit-Learn | PCA y Clustering |
-| Jupyter Notebook | Desarrollo del proyecto |
+| Jupyter Notebook | Desarrollo interactivo |
 
 ---
 
-# 📁 Estructura del proyecto
+# 📂 Estructura del repositorio
 
-```
+```text
 eda-correlacion-pbi-latinoamerica/
-
+│
 ├── data/
-│      pbi_latinoamerica.csv
+│   └── pbi_latinoamerica.csv
+│
 ├── notebooks/
-│      EDA_PBI.ipynb
+│   └── eda_pbi_latinoamerica.ipynb
+│
 ├── images/
+│
 ├── README.md
+│
 └── requirements.txt
+```
+
 ---
 
 # 🔬 Metodología
 
-El proyecto sigue una metodología clásica de Ciencia de Datos aplicada al análisis económico.
-
-## 1️⃣ Recolección de datos
-
-Se recopiló la información histórica del Producto Bruto Interno de cada país latinoamericano para el período comprendido entre 2000 y 2024.
-
-Posteriormente se realizó la consolidación de todas las series temporales en un único conjunto de datos estructurado.
-
----
-
-## 2️⃣ Limpieza y preparación de datos
-
-Durante esta etapa se realizaron las siguientes actividades:
-
-- revisión de valores faltantes
-
-- estandarización de nombres
-
-- transformación de variables
-
-- validación de consistencia
-
-- organización del dataset para análisis temporal
-
----
-
-## 3️⃣ Análisis Exploratorio de Datos (EDA)
-
-Se aplicaron técnicas de estadística descriptiva para comprender el comportamiento general del conjunto de datos.
-
-Entre ellas destacan:
-
-- medidas de tendencia central
-
-- dispersión
-
-- distribución
-
-- evolución temporal
-
-- comparación entre países
-
-- detección de patrones
-
----
-
-## 4️⃣ Correlación
-
-Se construyó una matriz de correlación para evaluar el grado de asociación lineal entre las trayectorias del PBI de los distintos países.
-
-Esta etapa permite determinar qué economías evolucionan de manera similar y constituye la base para aplicar técnicas posteriores de reducción de dimensionalidad.
-
----
-
-## 5️⃣ Reducción de dimensionalidad (PCA)
-
-El Análisis de Componentes Principales (PCA) permite sintetizar la información contenida en múltiples variables altamente correlacionadas, reduciendo la complejidad del conjunto de datos sin perder una proporción significativa de la variabilidad.
-
----
-
-## 6️⃣ Clustering
-
-Finalmente se aplican técnicas de aprendizaje no supervisado para identificar grupos de países con patrones de crecimiento económico similares.
-
-El objetivo es reconocer estructuras regionales que no son evidentes mediante un análisis descriptivo convencional.
-
----
-
-# 📈 Flujo metodológico
+El proyecto sigue un flujo de trabajo típico de Ciencia de Datos, integrando análisis exploratorio, estadística descriptiva y técnicas de aprendizaje no supervisado.
 
 ```text
 Obtención de datos
         │
         ▼
-Limpieza y preparación
+Limpieza de datos
         │
         ▼
 Análisis Exploratorio (EDA)
         │
         ▼
-Estadística descriptiva
+Visualización
         │
         ▼
-Visualización
+Estadística descriptiva
         │
         ▼
 Matriz de correlación
@@ -242,675 +178,531 @@ Interpretación económica
 
 ---
 
-# 📊 Panorama general del conjunto de datos
+# 📊 ¿Por qué analizar el PBI?
 
-Antes de analizar cada país individualmente, resulta importante comprender la estructura general del conjunto de datos.
+El Producto Bruto Interno (PBI) es uno de los indicadores macroeconómicos más utilizados para medir el tamaño y la evolución de una economía.
 
-Las economías latinoamericanas presentan diferencias sustanciales en tamaño, ritmo de crecimiento y volatilidad. Mientras Brasil y México concentran una parte importante del PBI regional, el resto de países exhibe economías considerablemente menores, generando una distribución altamente asimétrica.
+Analizar su comportamiento a lo largo del tiempo permite identificar:
 
-Esta heterogeneidad hace indispensable el uso de herramientas estadísticas que permitan diferenciar patrones estructurales de simples diferencias de escala.
+- Tendencias de crecimiento.
+- Cambios estructurales.
+- Impacto de crisis económicas.
+- Diferencias entre economías grandes y pequeñas.
+- Similitudes entre países.
 
-La siguiente figura resume visualmente la evolución agregada del Producto Bruto Interno latinoamericano durante el período analizado.
+En este proyecto, el PBI constituye la variable central para explorar la dinámica económica de América Latina durante los últimos 25 años.
 
-```
+---
+
+# 📈 Panorama general
+
+Antes de estudiar cada economía de manera individual, es necesario comprender la evolución agregada del Producto Bruto Interno regional.
+
+La siguiente visualización resume la evolución del PBI de los países latinoamericanos durante el período 2000–2024 y sirve como punto de partida para el análisis exploratorio presentado en las siguientes secciones.
 
 
-
-<img width="1178" height="722" alt="image" src="https://github.com/user-attachments/assets/af494261-20ab-4e2b-b5ae-258cdf85d4ac" />
+---
 
 # 📊 Análisis Exploratorio de Datos (EDA)
 
-El Análisis Exploratorio de Datos (Exploratory Data Analysis - EDA) constituye la primera etapa analítica del proyecto y tiene como propósito comprender el comportamiento histórico del Producto Bruto Interno (PBI) de las economías latinoamericanas antes de aplicar técnicas de modelado estadístico.
+El **Análisis Exploratorio de Datos (EDA)** constituye la etapa inicial de cualquier proyecto de Ciencia de Datos. Su objetivo es comprender la estructura del conjunto de datos, identificar patrones, detectar anomalías y generar hipótesis antes de aplicar modelos estadísticos o de Machine Learning.
 
-A través de estadísticas descriptivas y visualizaciones es posible identificar tendencias, patrones de crecimiento, cambios estructurales, niveles de volatilidad y diferencias entre países.
-
-Este enfoque permite transformar grandes volúmenes de datos en conocimiento económico útil para interpretar la evolución regional durante los últimos veinticinco años.
+En este proyecto, el EDA permite analizar la evolución del Producto Bruto Interno (PBI) de América Latina durante el período **2000–2024**, identificando diferencias estructurales entre economías, tendencias de crecimiento y el impacto de eventos económicos internacionales.
 
 ---
 
-# 🌎 Evolución del PBI latinoamericano (2000–2024)
+# 📈 Evolución del PBI de América Latina (2000–2024)
 
-<img width="1178" height="722" alt="image" src="https://github.com/user-attachments/assets/af494261-20ab-4e2b-b5ae-258cdf85d4ac"/>
+<div align="center">
 
-## Principales características del conjunto de datos
+<img width="1000" src="https://github.com/user-attachments/assets/af494261-20ab-4e2b-b5ae-258cdf85d4ac"/>
 
-| Característica | Valor |
-|----------------|-------|
-| Período analizado | 2000–2024 |
-| Número de observaciones | 25 años |
-| Países analizados | 17 |
-| Variable principal | PBI Nominal |
-| Unidad | Miles de millones de dólares (USD) |
+</div>
 
----
+## 🎯 ¿Qué muestra este gráfico?
 
-## Interpretación
+La figura presenta la evolución anual del Producto Bruto Interno nominal de los 17 países analizados entre los años 2000 y 2024.
 
-La evolución histórica del Producto Bruto Interno muestra un crecimiento prácticamente continuo de la economía latinoamericana durante las últimas dos décadas, aunque dicho crecimiento no ha sido uniforme entre los países.
-
-A simple vista puede observarse una marcada diferencia entre un pequeño grupo de economías de gran tamaño —principalmente Brasil y México— y el resto de países de la región.
-
-Esta diferencia genera una distribución altamente asimétrica, donde unas pocas economías concentran la mayor parte de la producción regional.
-
-En consecuencia, el comportamiento agregado de América Latina suele estar fuertemente influenciado por estas dos economías.
+Cada línea representa la trayectoria económica de un país, permitiendo comparar simultáneamente el crecimiento, la estabilidad y la magnitud de sus economías.
 
 ---
 
-## Hallazgos principales
+## 📌 Principales observaciones
 
-- El PBI regional aumenta de manera sostenida entre 2000 y 2024.
+### Brasil y México dominan la economía regional
 
-- Brasil y México concentran una proporción significativa de la producción regional.
+Desde el inicio del período analizado se observa que Brasil y México concentran la mayor parte del PBI latinoamericano.
 
-- Las economías pequeñas presentan trayectorias mucho más estables.
-
-- La región mantiene una elevada heterogeneidad económica.
+Su tamaño económico genera una fuerte asimetría dentro de la región, influyendo significativamente sobre cualquier indicador agregado.
 
 ---
 
-# 📈 Estadística descriptiva
+### Existe una elevada heterogeneidad económica
 
-El análisis descriptivo constituye la base del EDA, ya que resume el comportamiento general del conjunto de datos mediante indicadores estadísticos.
+Mientras Brasil supera ampliamente el billón de dólares durante varios años, numerosas economías centroamericanas mantienen niveles considerablemente menores.
 
-Las medidas de tendencia central muestran un incremento importante del tamaño promedio de las economías latinoamericanas durante el período analizado.
+Esto evidencia que América Latina no constituye un bloque homogéneo desde el punto de vista económico.
+
+---
+
+### Crecimiento regional de largo plazo
+
+A pesar de diversos episodios de crisis internacionales, la tendencia general muestra un crecimiento sostenido del Producto Bruto Interno regional.
+
+Sin embargo, dicho crecimiento presenta diferentes velocidades dependiendo de la estructura productiva de cada país.
+
+---
+
+## 💡 Insight
+
+> **El crecimiento latinoamericano está liderado por un reducido grupo de economías grandes, mientras la mayoría de países mantiene trayectorias significativamente menores.**
+
+---
+
+# 📊 Estadística descriptiva
+
+Las medidas descriptivas permiten resumir el comportamiento general del conjunto de datos antes de realizar análisis más avanzados.
 
 ## Tendencia central
 
-| Año | PBI promedio aproximado |
-|-----|-------------------------|
-| 2000 | USD 123 mil millones |
-| 2024 | USD 382 mil millones |
+| Indicador | Año 2000 | Año 2024 |
+|-----------|---------:|---------:|
+| PBI promedio | USD 123 mil millones | USD 382 mil millones |
 
-El incremento del promedio regional refleja un crecimiento económico agregado considerable.
+El incremento del promedio regional evidencia una expansión económica importante durante el período analizado.
 
-No obstante, este crecimiento no implica que todas las economías hayan experimentado una expansión similar.
-
-Las economías de mayor tamaño ejercen una influencia desproporcionada sobre el promedio regional.
+No obstante, este crecimiento se encuentra influenciado principalmente por las economías de mayor tamaño.
 
 ---
 
-## Dispersión económica
+## Dispersión
 
-Uno de los resultados más relevantes del análisis descriptivo es el incremento progresivo de la desviación estándar.
+La desviación estándar aumenta progresivamente conforme avanza el período de estudio.
 
-Este comportamiento indica que la distancia entre las economías grandes y pequeñas continúa aumentando.
+Esto significa que la diferencia entre las economías grandes y pequeñas continúa ampliándose.
 
-En otras palabras, el crecimiento económico regional ha estado acompañado por una mayor desigualdad en tamaño económico.
-
-### Interpretación económica
-
-En lugar de observar un proceso de convergencia económica, donde las economías pequeñas alcancen gradualmente a las grandes, los datos muestran un fenómeno de divergencia.
-
-Brasil y México continúan ampliando la brecha respecto al resto de países.
+En consecuencia, los datos sugieren un proceso de **divergencia económica**, más que de convergencia regional.
 
 ---
 
-## Asimetría de la distribución
+## Distribución
 
-La distribución del PBI presenta una marcada asimetría positiva.
+La distribución del PBI presenta una marcada **asimetría positiva**.
 
-Esto se evidencia porque:
+Esto ocurre porque:
 
-- La media supera ampliamente a la mediana.
-- Existen pocos valores extremadamente grandes.
-- La mayoría de economías poseen un tamaño relativamente reducido.
+- Brasil y México desplazan el promedio hacia valores elevados.
+- La mayoría de economías se concentra en niveles mucho menores.
+- Existen pocos valores extremadamente altos.
 
-Desde una perspectiva estadística, esta distribución corresponde a una **cola larga (long tail distribution)**.
+Desde una perspectiva estadística, esta distribución corresponde a una **Long Tail Distribution**.
 
 ---
 
-# 🏛 Clasificación estructural de las economías
+# 🌎 Clasificación estructural de las economías
 
-A partir de la magnitud del Producto Bruto Interno es posible distinguir tres grandes grupos dentro de América Latina.
+A partir del tamaño del Producto Bruto Interno es posible distinguir tres grandes grupos económicos.
 
-## Economías grandes
+| Grupo | Países | Características |
+|--------|---------|----------------|
+| Grandes | Brasil, México | Alta participación regional y mayor volatilidad |
+| Medianas | Argentina, Chile, Colombia, Perú | Crecimiento sostenido con diferencias estructurales |
+| Pequeñas | Centroamérica, Bolivia, Paraguay y Uruguay | Mayor estabilidad, menor tamaño económico |
+
+---
+
+# 🌍 Grandes ciclos económicos
+
+## Crisis regional (2000–2002)
+
+<div align="center">
+
+<img width="900" src="https://github.com/user-attachments/assets/90387c62-c517-4f00-9062-f02c8f3d50ca"/>
+
+</div>
+
+Durante los primeros años del siglo XXI la región experimentó importantes dificultades económicas.
+
+Argentina sufrió una de las crisis financieras más severas de su historia reciente, mientras Uruguay también registró una fuerte desaceleración.
+
+Brasil y México lograron amortiguar parcialmente los efectos gracias al tamaño de sus mercados internos.
+
+---
+
+## Boom de materias primas (2003–2011)
+
+El incremento sostenido del precio internacional de los commodities impulsó una etapa de crecimiento generalizado.
+
+Las economías más beneficiadas fueron:
 
 - 🇧🇷 Brasil
-- 🇲🇽 México
-
-Estas economías representan la mayor parte del PBI regional.
-
-Características principales:
-
-- Mayor influencia sobre el promedio regional.
-- Alta exposición a los mercados financieros internacionales.
-- Elevada sensibilidad al precio de los commodities.
-- Mayor volatilidad durante crisis globales.
-
-Brasil presenta el ciclo económico más pronunciado del conjunto de datos.
-
-Su trayectoria puede dividirse en cuatro etapas claramente diferenciadas:
-
-- Boom económico (2003–2011)
-- Estancamiento (2014–2019)
-- Crisis COVID-19 (2020)
-- Recuperación parcial (2021–2024)
-
----
-
-## Economías medianas
-
-- 🇦🇷 Argentina
-- 🇨🇴 Colombia
 - 🇨🇱 Chile
 - 🇵🇪 Perú
+- 🇨🇴 Colombia
 
-Estas economías muestran un comportamiento mucho más heterogéneo.
-
-Mientras Perú y Colombia mantienen trayectorias relativamente estables, Argentina presenta episodios recurrentes de elevada volatilidad.
-
-Chile exhibe una evolución intermedia, influenciada por los ciclos internacionales del cobre.
+Este período coincide con una expansión significativa del comercio internacional y de la demanda asiática, particularmente de China.
 
 ---
 
-## Economías pequeñas
+## Desaceleración (2012–2019)
 
-Incluyen principalmente a los países centroamericanos y algunas economías sudamericanas.
+Luego del auge de los commodities, la región experimentó una etapa de crecimiento moderado.
 
-Entre ellas destacan:
-
-- Guatemala
-- Honduras
-- Nicaragua
-- El Salvador
-- Paraguay
-- Bolivia
-- Uruguay
-- Panamá
-- República Dominicana
-
-En conjunto presentan:
-
-- Crecimiento sostenido.
-- Menor amplitud de los ciclos económicos.
-- Mayor estabilidad relativa.
-- Menor exposición a grandes fluctuaciones internacionales.
-
----
-
-# 📉 Grandes ciclos económicos
-
-## Crisis inicial (2000–2002)
-
-<img width="1028" height="632" alt="image" src="https://github.com/user-attachments/assets/90387c62-c517-4f00-9062-f02c8f3d50ca"/>
-
-La primera etapa del análisis está marcada por importantes dificultades macroeconómicas.
-
-Argentina atraviesa una profunda crisis financiera entre 2001 y 2002, generando efectos sobre Uruguay y otras economías vecinas.
-
-Brasil y México muestran una mayor capacidad de resistencia debido a la dimensión de sus mercados internos.
-
----
-
-## Boom de commodities (2003–2011)
-
-Este período representa la fase de mayor expansión económica observada en el conjunto de datos.
-
-El incremento sostenido de los precios internacionales de materias primas impulsó el crecimiento de prácticamente toda la región.
-
-Los principales beneficiados fueron:
-
-- Brasil
-- Chile
-- Perú
-- Colombia
-
-Este ciclo permitió:
-
-- Incremento del ingreso nacional.
-- Expansión de las exportaciones.
-- Reducción de pobreza en diversos países.
-- Crecimiento acelerado de la inversión.
-
-Desde una perspectiva histórica, constituye el período macroeconómico más favorable para América Latina durante el siglo XXI.
-
----
-
-## Estancamiento (2012–2019)
-
-Luego del fin del súper ciclo de commodities comienza una desaceleración regional.
-
-Las principales causas incluyen:
+Entre las principales causas destacan:
 
 - Menor crecimiento mundial.
-- Caída del precio de materias primas.
-- Problemas estructurales internos.
-- Menor inversión.
-
-La región experimenta una etapa caracterizada por bajo crecimiento y limitada capacidad de expansión.
+- Reducción del precio de materias primas.
+- Limitaciones estructurales internas.
+- Menor inversión extranjera.
 
 ---
 
-## Crisis COVID-19 (2020)
+## Pandemia COVID-19 (2020)
 
-La pandemia genera una caída prácticamente sincronizada en todas las economías latinoamericanas.
+La pandemia produjo una contracción prácticamente simultánea en todas las economías latinoamericanas.
 
-Los efectos se observan con especial intensidad en:
-
-- Brasil
-- México
-- Argentina
-- Chile
-
-Las economías más pequeñas muestran una recuperación relativamente más rápida debido a su menor tamaño y a la reactivación gradual del turismo y las remesas.
+Este comportamiento constituye una primera evidencia visual de una elevada sincronización regional.
 
 ---
 
 ## Recuperación (2021–2024)
 
-El comportamiento posterior a la pandemia evidencia una recuperación desigual.
+La recuperación posterior a la pandemia no fue uniforme.
 
-Brasil y México recuperan rápidamente parte de la actividad económica.
-
-Perú y Colombia muestran una recuperación sólida.
-
-Argentina continúa presentando elevada volatilidad.
-
-Las economías centroamericanas mantienen trayectorias relativamente estables.
+Mientras Brasil y México recuperaron rápidamente gran parte de su actividad económica, otros países enfrentaron procesos de recuperación más lentos y heterogéneos.
 
 ---
 
 # 📊 Análisis de volatilidad
 
-<img width="1111" height="627" alt="image" src="https://github.com/user-attachments/assets/29ed539e-344e-48dc-88ff-2f4da266deb3"/>
+<div align="center">
 
-La volatilidad mide la magnitud de las fluctuaciones económicas experimentadas por cada país a lo largo del período analizado.
+<img width="900" src="https://github.com/user-attachments/assets/29ed539e-344e-48dc-88ff-2f4da266deb3"/>
 
-## Países más volátiles
+</div>
 
-- Argentina
-- Brasil
-- Chile
+La volatilidad permite medir la intensidad de las fluctuaciones económicas registradas por cada país durante el período analizado.
 
-Estas economías presentan mayores variaciones debido a:
+## Países con mayor volatilidad
 
-- Dependencia de commodities.
-- Cambios de política económica.
-- Crisis financieras.
-- Choques internacionales.
+🥇 Argentina
 
-## Países más estables
+🥈 Brasil
+
+🥉 Chile
+
+Estas economías muestran una mayor sensibilidad frente a cambios en el contexto internacional y a factores internos de política económica.
+
+---
+
+## Países con mayor estabilidad
 
 - Guatemala
 - Honduras
 - Nicaragua
 - Panamá
 
-Su crecimiento resulta menos pronunciado, aunque considerablemente más estable.
+Aunque presentan economías de menor tamaño, sus trayectorias muestran variaciones considerablemente más moderadas.
 
 ---
 
-# 🚀 Crecimiento acumulado (2000–2024)
+# 🚀 Crecimiento acumulado
 
-<img width="1093" height="628" alt="image" src="https://github.com/user-attachments/assets/4f588f2b-867c-4895-ba2a-af3a14c7a6a2"/>
+<div align="center">
 
-El crecimiento acumulado permite comparar la capacidad de expansión de las economías durante los últimos veinticinco años.
+<img width="900" src="https://github.com/user-attachments/assets/4f588f2b-867c-4895-ba2a-af3a14c7a6a2"/>
+
+</div>
+
+El crecimiento acumulado permite comparar el desempeño económico de los países durante todo el período de estudio.
 
 ## Economías con mayor crecimiento relativo
 
-🥇 Perú
+| Posición | País |
+|-----------|------|
+| 🥇 | Perú |
+| 🥈 | Panamá |
+| 🥉 | República Dominicana |
+| 4️⃣ | Colombia |
 
-🥈 Panamá
-
-🥉 República Dominicana
-
-🏅 Colombia
-
-Estas economías lograron incrementar significativamente su tamaño económico mediante una combinación de estabilidad macroeconómica, apertura comercial e inversión.
-
-## Economías con menor crecimiento
-
-- Argentina
-- Uruguay
-
-En el caso argentino, los episodios recurrentes de inestabilidad macroeconómica limitaron el crecimiento de largo plazo.
+Estas economías lograron expandir significativamente su tamaño económico gracias a una combinación de estabilidad macroeconómica, apertura comercial e inversión.
 
 ---
 
-# 📌 Principales hallazgos del EDA
+## 📌 Principales conclusiones del EDA
 
-Del análisis exploratorio pueden extraerse las siguientes conclusiones preliminares:
+✔ La economía latinoamericana creció de forma sostenida durante las últimas dos décadas.
 
-- El crecimiento regional no ha sido homogéneo.
+✔ Brasil y México continúan concentrando una parte importante del PBI regional.
 
-- La brecha entre economías grandes y pequeñas continúa ampliándose.
+✔ Las economías pequeñas muestran mayor estabilidad, aunque con menor capacidad de crecimiento.
 
-- Las crisis internacionales afectan simultáneamente a casi toda la región.
+✔ Las crisis internacionales afectan simultáneamente a la mayoría de países.
 
-- Las recuperaciones económicas muestran trayectorias mucho más heterogéneas.
-
-- Perú, Panamá y República Dominicana destacan por su elevado crecimiento relativo.
-
-- Argentina constituye el caso más representativo de alta volatilidad macroeconómica.
+✔ La recuperación posterior depende principalmente de factores estructurales internos.
 
 ---
 
-En la siguiente sección se analiza la **matriz de correlación**, uno de los resultados más importantes del proyecto, ya que permite identificar el grado de sincronización entre las economías latinoamericanas y justifica posteriormente la aplicación de técnicas como **PCA (Análisis de Componentes Principales)** y **Clustering**.
+> ---
 
+# 🔥 Matriz de Correlación
 
+La matriz de correlación permite evaluar el grado de relación lineal entre las economías latinoamericanas durante el período **2000–2024**.
 
-<img width="1028" height="632" alt="image" src="https://github.com/user-attachments/assets/90387c62-c517-4f00-9062-f02c8f3d50ca" />
+En este proyecto se utilizó el **coeficiente de correlación de Pearson**, una de las métricas más empleadas en estadística para cuantificar la intensidad y dirección de la relación entre dos variables.
 
----
+Su interpretación es la siguiente:
 
-# 🔥 Análisis de la Matriz de Correlación
+| Valor | Interpretación |
+|---------|----------------|
+| **1.00** | Correlación positiva perfecta |
+| **0.80 – 0.99** | Muy fuerte |
+| **0.60 – 0.79** | Fuerte |
+| **0.40 – 0.59** | Moderada |
+| **0.20 – 0.39** | Débil |
+| **0.00** | Sin relación lineal |
 
-La matriz de correlación representa una de las herramientas más importantes dentro del Análisis Exploratorio de Datos (EDA), ya que permite medir el grado de asociación lineal entre las trayectorias del Producto Bruto Interno (PBI) de los países latinoamericanos durante el período 2000–2024.
-
-A diferencia del análisis descriptivo, que estudia cada economía de manera individual, la matriz de correlación revela **cómo evolucionan conjuntamente las economías de la región** y permite identificar patrones compartidos de crecimiento, sincronización económica y posibles bloques regionales.
-
-En este proyecto se empleó el coeficiente de correlación de **Pearson**, cuyos valores oscilan entre **-1 y 1**:
-
-| Coeficiente | Interpretación |
-|-------------|----------------|
-| 1.00 | Correlación positiva perfecta |
-| 0.80 – 0.99 | Correlación muy fuerte |
-| 0.60 – 0.79 | Correlación fuerte |
-| 0.40 – 0.59 | Correlación moderada |
-| 0.20 – 0.39 | Correlación débil |
-| 0.00 | Sin correlación |
-| Valores negativos | Relación inversa |
-
-En términos económicos, una correlación elevada indica que dos países experimentan variaciones similares en su PBI a lo largo del tiempo, aunque ello **no implica causalidad** ni que ambos tengan el mismo tamaño económico.
+> **Importante:** Una correlación alta indica que dos economías presentan trayectorias similares, pero **no implica causalidad**.
 
 ---
 
-# 📊 Matriz de Correlación
+<div align="center">
 
-<img width="997" height="919" alt="image" src="https://github.com/user-attachments/assets/79b9f585-aa1c-477c-bf7e-747846c0402b"/>
+<img width="900" src="https://github.com/user-attachments/assets/79b9f585-aa1c-477c-bf7e-747846c0402b"/>
+
+</div>
+
+---
+
+# 📊 Interpretación general
+
+La matriz revela que la mayoría de las economías latinoamericanas presentan **correlaciones positivas elevadas**, lo que indica que sus ciclos económicos han evolucionado de manera similar durante los últimos veinticinco años.
+
+Este comportamiento sugiere que los países de la región responden de forma relativamente sincronizada a eventos externos como:
+
+- Crisis financieras internacionales.
+- Variaciones en los precios de los commodities.
+- Cambios en las tasas de interés internacionales.
+- Fluctuaciones del comercio mundial.
+- Cambios en la demanda de Estados Unidos y China.
+
+En términos económicos, esto significa que América Latina comparte un ciclo económico regional, aunque cada país conserve características estructurales propias.
 
 ---
 
 # 📌 Hallazgos principales
 
-## 1. Alta sincronización regional
+## 🌎 1. Existe una elevada sincronización regional
 
-El primer resultado que destaca es la presencia de coeficientes de correlación superiores a **0.85** entre la mayoría de las economías analizadas.
+La mayor parte de los coeficientes supera **0.85**, indicando que las economías latinoamericanas atraviesan fases de crecimiento y desaceleración de forma similar.
 
-Esto evidencia que los países latinoamericanos tienden a experimentar fases de expansión y contracción económica de manera relativamente sincronizada.
-
-En otras palabras, aunque existen importantes diferencias en tamaño económico, las trayectorias del crecimiento siguen patrones similares.
-
-Esta sincronización refleja la influencia predominante de factores externos compartidos.
-
-Entre ellos destacan:
-
-- Ciclo económico mundial.
-- Precios internacionales de los commodities.
-- Tasas de interés internacionales.
-- Flujos de inversión extranjera.
-- Demanda proveniente de Estados Unidos y China.
-
-Uno de los hallazgos más relevantes del estudio es que **América Latina presenta una elevada sincronización cíclica, pero no una convergencia económica**.
-
-Es decir, las economías crecen y se desaceleran al mismo tiempo, aunque las diferencias estructurales entre ellas continúan ampliándose.
+Este resultado refleja la fuerte influencia de factores macroeconómicos globales sobre la región.
 
 ---
 
-## 2. Bloque altamente integrado de economías medianas y pequeñas
+## 🇧🇷 2. Brasil presenta el comportamiento más independiente
 
-La matriz evidencia un subconjunto de países con correlaciones extremadamente elevadas (0.97–0.99).
+Brasil registra correlaciones menores respecto a varios países de la región.
 
-Entre ellos destacan:
+Esto puede explicarse por:
 
-- 🇵🇪 Perú
-- 🇪🇨 Ecuador
-- 🇵🇦 Panamá
-- 🇨🇷 Costa Rica
-- 🇩🇴 República Dominicana
-- 🇬🇹 Guatemala
-- 🇳🇮 Nicaragua
-- 🇭🇳 Honduras
-- 🇸🇻 El Salvador
+- Gran mercado interno.
+- Mayor diversificación productiva.
+- Importante sector industrial.
+- Menor dependencia relativa del comercio regional.
 
-Este comportamiento sugiere la existencia de un bloque económico con dinámicas muy similares.
-
-Las posibles explicaciones incluyen:
-
-- Economías relativamente abiertas.
-- Dependencia de exportaciones primarias.
-- Elevada importancia del turismo.
-- Remesas como fuente significativa de ingreso.
-- Alta sensibilidad a cambios del contexto internacional.
-
-Desde la perspectiva del análisis de datos, estas economías presentan un comportamiento suficientemente parecido como para ser agrupadas mediante algoritmos de aprendizaje no supervisado.
+Aunque continúa formando parte del ciclo latinoamericano, su evolución depende en mayor medida de factores internos.
 
 ---
 
-## 3. Brasil: la economía más independiente
+## 🇲🇽 3. México mantiene una dinámica particular
 
-Brasil presenta los coeficientes de correlación más bajos dentro del conjunto.
+México presenta una posición intermedia dentro de la matriz.
 
-En particular:
+Su estrecha integración con Estados Unidos hace que su crecimiento responda tanto al contexto latinoamericano como al ciclo económico norteamericano.
 
-- Brasil – México ≈ 0.68
-- Brasil – Perú ≈ 0.64
-- Brasil – Centroamérica ≈ 0.55–0.60
+Actualmente destacan factores como:
 
-Aunque estos valores siguen siendo positivos, resultan considerablemente inferiores al promedio regional.
-
-Esto sugiere que Brasil posee un ciclo económico parcialmente independiente.
-
-Las principales razones son:
-
-- Mercado interno de gran tamaño.
-- Diversificación productiva.
-- Sector industrial relativamente desarrollado.
-- Mayor autonomía macroeconómica.
-- Menor dependencia de remesas y turismo.
-
-Brasil continúa participando del ciclo latinoamericano, aunque su evolución responde en mayor medida a factores domésticos.
-
----
-
-## 4. México: puente entre América Latina y Estados Unidos
-
-México ocupa una posición intermedia dentro de la matriz de correlación.
-
-Mantiene relaciones elevadas con la mayoría de países latinoamericanos, aunque inferiores a las observadas entre las economías centroamericanas.
-
-Su comportamiento puede explicarse por su estrecha integración con la economía estadounidense.
-
-Actualmente gran parte de su crecimiento depende de:
-
-- Manufactura.
 - Nearshoring.
+- Manufactura.
+- Exportaciones industriales.
 - Cadenas globales de suministro.
-- Comercio exterior con Estados Unidos.
-
-Por ello, México actúa como un puente entre la dinámica económica latinoamericana y el ciclo industrial norteamericano.
 
 ---
 
-## 5. Países andinos
+## ⛰️ 4. Las economías andinas muestran trayectorias similares
 
-Perú, Chile, Colombia y Ecuador presentan correlaciones muy elevadas.
+Perú, Chile, Colombia y Ecuador presentan correlaciones elevadas entre sí.
 
-Este comportamiento responde principalmente a características estructurales comunes.
+Las similitudes pueden asociarse a:
 
-Entre ellas destacan:
-
-- Producción minera.
-- Exportación de recursos naturales.
-- Dependencia del mercado chino.
+- Dependencia de exportaciones mineras.
+- Influencia del mercado chino.
+- Estructuras productivas comparables.
 - Políticas macroeconómicas relativamente similares.
 
-Este grupo constituye uno de los candidatos naturales para formar un mismo clúster durante el análisis de aprendizaje no supervisado.
-
 ---
 
-## 6. Centroamérica
+## 🌴 5. Centroamérica conforma uno de los bloques más homogéneos
 
-Guatemala, Honduras, El Salvador y Nicaragua presentan algunas de las correlaciones más altas de toda la matriz.
+Guatemala, Honduras, El Salvador, Nicaragua, Costa Rica y Panamá muestran algunas de las correlaciones más altas del estudio.
 
-Esto sugiere una fuerte integración económica regional.
+Esto sugiere una fuerte integración económica y una elevada sensibilidad a factores comunes como:
 
-Las posibles explicaciones incluyen:
-
+- Turismo.
 - Remesas.
-- Integración comercial.
-- Similitud productiva.
-- Mercados relativamente pequeños.
-
-Desde una perspectiva estadística, estas economías evolucionan prácticamente como un único bloque económico.
+- Comercio intrarregional.
+- Economía estadounidense.
 
 ---
 
-## 7. Argentina
+## 🇦🇷 6. Argentina destaca por su volatilidad
 
-Argentina presenta correlaciones relativamente altas con el resto de la región.
+Aunque mantiene correlaciones positivas con el resto de la región, Argentina presenta una mayor amplitud en sus fluctuaciones económicas.
 
-Sin embargo, también exhibe una volatilidad considerablemente superior.
-
-Esto significa que comparte el ciclo regional, pero amplifica sus fluctuaciones debido a factores internos.
-
-Entre ellos:
+Las causas incluyen:
 
 - Inflación persistente.
-- Cambios frecuentes de política económica.
 - Crisis cambiarias.
-- Inestabilidad fiscal.
+- Cambios frecuentes de política económica.
+- Restricciones fiscales.
+
+Esto explica por qué comparte el ciclo regional, pero con una intensidad considerablemente mayor.
 
 ---
 
-# 📈 Interpretación Económica
+# 📈 Implicancias económicas
 
-La matriz de correlación permite llegar a una conclusión importante.
+La elevada correlación observada indica que las economías latinoamericanas no evolucionan de manera aislada.
 
-América Latina no constituye un conjunto de economías independientes.
+Los principales eventos internacionales afectan simultáneamente a la mayoría de países, generando ciclos económicos sincronizados.
 
-Por el contrario, la región responde de manera relativamente homogénea frente a eventos externos.
-
-Las principales crisis internacionales afectan simultáneamente a casi todos los países.
-
-Sin embargo, la velocidad de recuperación depende de factores internos como:
+No obstante, la velocidad de recuperación depende de factores internos como:
 
 - Productividad.
 - Instituciones.
 - Diversificación económica.
-- Política fiscal.
-- Política monetaria.
-
-Por ello, la región comparte el ciclo económico, pero no necesariamente comparte el crecimiento de largo plazo.
+- Estabilidad macroeconómica.
+- Calidad de las políticas públicas.
 
 ---
 
-# 📊 Implicancias Estadísticas
+# 🧠 Implicancias para Machine Learning
 
-Desde el punto de vista estadístico, la matriz evidencia un fenómeno conocido como **multicolinealidad**.
+Uno de los objetivos del proyecto consiste en evaluar si las técnicas de aprendizaje automático pueden aportar una mejor comprensión de las relaciones económicas entre países.
 
-Cuando muchas variables presentan correlaciones muy elevadas, existe una importante redundancia de información.
+Los resultados del análisis exploratorio muestran que sí.
 
-Esto implica que varias variables contienen prácticamente el mismo patrón de comportamiento.
+## 📌 Redundancia de información
+
+Las altas correlaciones indican que muchas variables contienen información muy similar.
+
+Desde una perspectiva estadística esto se conoce como **multicolinealidad**.
 
 Como consecuencia:
 
-- Los modelos de regresión pueden volverse inestables.
-- Los coeficientes pueden resultar difíciles de interpretar.
-- Aumenta la redundancia del conjunto de datos.
-
-Este hallazgo justifica plenamente la aplicación de técnicas de reducción de dimensionalidad.
+- Existe redundancia en el conjunto de datos.
+- Varias variables aportan información repetida.
+- El espacio de características puede simplificarse.
 
 ---
 
-# 🔬 Justificación del PCA
+## 📊 ¿Por qué aplicar PCA?
 
-El Análisis de Componentes Principales (Principal Component Analysis - PCA) permite sintetizar múltiples variables altamente correlacionadas en un pequeño número de componentes.
+El **Análisis de Componentes Principales (PCA)** permite reducir la dimensionalidad del problema sin perder gran parte de la información contenida en los datos.
 
-En este proyecto, el PCA permite:
+En este proyecto, PCA permitirá:
 
-- Reducir la dimensionalidad del problema.
-- Eliminar redundancia estadística.
+- Reducir variables altamente correlacionadas.
+- Eliminar redundancia.
 - Identificar factores comunes de crecimiento.
 - Facilitar la visualización del conjunto de datos.
 
-En otras palabras, el PCA transforma múltiples variables económicas en componentes capaces de resumir la mayor parte de la información disponible.
+---
+
+## 🤖 ¿Por qué aplicar Clustering?
+
+Si varios países presentan trayectorias similares, es razonable esperar que puedan agruparse automáticamente mediante algoritmos de aprendizaje no supervisado.
+
+El análisis de Clustering permitirá identificar bloques económicos sin necesidad de definir categorías previamente.
+
+Esto facilitará descubrir grupos de economías con patrones de crecimiento comparables.
 
 ---
 
-# 🤖 Justificación del Clustering
+# 💡 Principales insights
 
-La elevada correlación entre varios países sugiere la existencia de grupos naturales dentro del conjunto de datos.
-
-Por ello, resulta apropiado aplicar algoritmos de clustering para identificar economías con comportamientos similares.
-
-El objetivo consiste en descubrir estructuras ocultas sin utilizar información previa sobre categorías económicas.
-
-Los resultados del clustering permiten identificar bloques regionales con trayectorias comparables, facilitando la interpretación económica.
-
----
-
-# 💡 Principales Insights
-
-📌 El crecimiento económico latinoamericano presenta una fuerte dependencia del contexto internacional.
-
-📌 Brasil constituye la economía con mayor autonomía relativa.
-
-📌 México mantiene un comportamiento híbrido debido a su integración con Estados Unidos.
-
-📌 Las economías andinas presentan patrones de crecimiento altamente similares.
-
-📌 Centroamérica conforma uno de los bloques económicos más homogéneos de la región.
-
-📌 Las crisis internacionales generan efectos sincronizados, mientras que las recuperaciones muestran trayectorias diferenciadas.
-
-📌 Las elevadas correlaciones justifican el uso de técnicas de reducción de dimensionalidad y aprendizaje no supervisado.
+| Insight | Interpretación |
+|----------|----------------|
+| 🌎 Alta correlación regional | Las economías responden de forma similar a choques externos. |
+| 🇧🇷 Brasil | Presenta mayor independencia económica relativa. |
+| 🇲🇽 México | Actúa como puente entre América Latina y Estados Unidos. |
+| ⛰️ Países andinos | Comparten patrones de crecimiento similares. |
+| 🌴 Centroamérica | Constituye el bloque económico más homogéneo. |
+| 🧠 PCA | La alta correlación justifica la reducción de dimensionalidad. |
+| 🤖 Clustering | Es posible identificar grupos naturales de economías. |
 
 ---
 
-# ⚠️ Limitaciones del estudio
+# ⚠️ Limitaciones del proyecto
 
-Aunque el análisis proporciona resultados relevantes, existen algunas limitaciones.
+Este análisis presenta algunas limitaciones que deben considerarse:
 
-- El estudio considera únicamente el PBI nominal.
-- No incorpora variables institucionales ni sociales.
-- No se incluyen indicadores de inflación.
-- No se analiza productividad laboral.
-- No se consideran indicadores de desigualdad.
+- Se utiliza únicamente el PBI nominal.
+- No se incorporan variables demográficas o institucionales.
+- No se consideran indicadores de inflación ni productividad.
+- No se analizan relaciones causales.
 
-La incorporación de estas variables permitiría desarrollar modelos económicos más completos.
+Estas limitaciones representan oportunidades para ampliar el proyecto en futuras investigaciones.
 
 ---
 
 # 🚀 Trabajo futuro
 
-Este proyecto puede ampliarse mediante la incorporación de nuevas técnicas de Ciencia de Datos.
+Como continuación de este estudio se propone incorporar:
 
-Entre las posibles extensiones destacan:
-
-- Modelos predictivos de crecimiento económico.
-- Series temporales (ARIMA, Prophet y LSTM).
-- Modelos de Machine Learning.
-- Redes neuronales.
-- Dashboards interactivos con Power BI o Tableau.
-- Visualizaciones geoespaciales.
-- Indicadores de competitividad.
-- Comercio internacional.
-- Inversión extranjera directa.
-- Productividad sectorial.
+- 📊 Dashboard interactivo en Power BI o Tableau.
+- 🌍 Visualizaciones geográficas.
+- 📈 Modelos de series temporales (ARIMA, Prophet y LSTM).
+- 🤖 Modelos predictivos con Machine Learning.
+- 📦 Análisis de exportaciones y comercio internacional.
+- 💰 Indicadores de inversión extranjera directa.
+- 🏛️ Variables institucionales y de gobernanza.
 
 ---
 
-# ✅ Conclusiones
+# 🎯 Conclusiones
 
-El análisis exploratorio evidencia que América Latina mantiene una elevada sincronización en sus ciclos económicos durante el período 2000–2024.
+Este proyecto demuestra cómo las técnicas de **Análisis Exploratorio de Datos (EDA)** permiten comprender la evolución económica de América Latina mediante el estudio del Producto Bruto Interno.
 
-No obstante, dicha sincronización no implica convergencia económica.
+Los resultados evidencian un crecimiento sostenido de la región durante el período 2000–2024, acompañado de diferencias significativas entre economías grandes, medianas y pequeñas.
 
-Brasil y México continúan concentrando una parte significativa del Producto Bruto Interno regional, mientras que las economías medianas y pequeñas presentan trayectorias similares, aunque con diferentes niveles de crecimiento.
+La matriz de correlación muestra una elevada sincronización entre los países, lo que sugiere la existencia de factores comunes que influyen sobre el desempeño económico regional.
 
-La matriz de correlación demuestra que la mayoría de los países reaccionan de forma semejante frente a choques internacionales, reforzando la hipótesis de una fuerte dependencia del contexto económico global.
+Asimismo, la presencia de variables altamente correlacionadas justifica la aplicación de técnicas como **PCA** y **Clustering**, las cuales permiten simplificar el análisis e identificar patrones ocultos dentro de los datos.
 
-Asimismo, la presencia de una elevada multicolinealidad justifica el uso de técnicas como el **Análisis de Componentes Principales (PCA)** y el **Clustering**, permitiendo identificar factores comunes de crecimiento y bloques económicos con comportamientos homogéneos.
-
-En conjunto, este proyecto muestra cómo el uso de herramientas de Ciencia de Datos puede aportar una comprensión más profunda de la evolución económica latinoamericana, integrando análisis estadístico, visualización e interpretación económica para generar conocimiento útil para investigadores, analistas y responsables de la formulación de políticas públicas.
+En conjunto, este proyecto integra herramientas de estadística, visualización y aprendizaje automático para transformar datos económicos en información útil para el análisis y la toma de decisiones.
 
 ---
 
-## 👨‍💻 Autor
+# 📚 Herramientas utilizadas
 
-**Gabriel Mena López**
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
 
-Ingeniería • Data Analytics • Machine Learning • Comercio Internacional • Agroindustria
+---
 
-**Si este proyecto te resultó útil, considera darle una ⭐ al repositorio.**
+# 👨‍💻 Autor
+
+## Andrés Mena
+
+**Ingeniería • Data Analytics • Machine Learning • Comercio Internacional • Agroindustria**
+
+📌 Si este proyecto te resultó útil o interesante, considera darle una ⭐ al repositorio y compartir tus comentarios o sugerencias.
+
+---
