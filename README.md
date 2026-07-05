@@ -131,31 +131,13 @@ El proyecto fue desarrollado completamente en Python utilizando herramientas amp
 ```
 eda-correlacion-pbi-latinoamerica/
 
-│
-
 ├── data/
-
 │      pbi_latinoamerica.csv
-
-│
-
 ├── notebooks/
-
 │      EDA_PBI.ipynb
-
-│
-
 ├── images/
-
-│
-
 ├── README.md
-
-│
-
 └── requirements.txt
-```
-
 ---
 
 # 🔬 Metodología
