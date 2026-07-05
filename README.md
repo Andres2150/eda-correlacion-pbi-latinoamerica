@@ -699,7 +699,7 @@ En conjunto, este proyecto integra herramientas de estadística, visualización 
 
 # 👨‍💻 Autor
 
-## Andrés Mena
+## Gabriel Mena López 
 
 **Ingeniería • Data Analytics • Machine Learning • Comercio Internacional • Agroindustria**
 
