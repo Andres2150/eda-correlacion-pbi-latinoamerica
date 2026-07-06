@@ -135,12 +135,8 @@ eda-correlacion-pbi-latinoamerica/
 ├── notebooks/
 │   └── eda_pbi_latinoamerica.ipynb
 │
-├── images/
-│
 ├── README.md
-│
-└── requirements.txt
-```
+
 
 ---
 
